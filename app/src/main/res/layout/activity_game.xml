@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#2C2F31"
+    tools:context=".GameActivity">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        app:cornerRadius="16dp">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_marginBottom="11dp"
+            android:background="#2C2F31"
+            android:onClick="check"
+            android:textColor="#3EDB83"
+            android:textSize="19dp"
+            app:icon="@color/material_dynamic_neutral_variant50" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="11dp"
+            android:background="#2C2F31"
+            android:foreground="#00000000"
+            android:onClick="check"
+            android:textColor="#3EDB83"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="11dp"
+            android:background="#2C2F31"
+            android:foreground="#00000000"
+            android:onClick="check"
+            android:textColor="#3EDB83"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_marginBottom="11dp"
+            android:background="#2C2F31"
+            android:foreground="#00000000"
+            android:onClick="check"
+            android:textColor="#3EDB83"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="11dp"
+            android:background="#2C2F31"
+            android:foreground="#00000000"
+            android:onClick="check"
+            android:textColor="#3EDB83"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="11dp"
+            android:background="#2C2F31"
+            android:foreground="#00000000"
+            android:onClick="check"
+            android:textColor="#3EDB83"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/bt7"
+            android:layout_marginBottom="11dp"
+            android:background="#2C2F31"
+            android:foreground="#00000000"
+            android:onClick="check"
+            android:textColor="#3EDB83"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/bt8"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="11dp"
+            android:background="#2C2F31"
+            android:foreground="#00000000"
+            android:onClick="check"
+            android:textColor="#3EDB83"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/bt9"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="11dp"
+            android:background="#2C2F31"
+            android:foreground="#00000000"
+            android:onClick="check"
+            android:textColor="#3EDB83"
+            android:textSize="19dp" />
+
+    </GridLayout>
+
+</LinearLayout>
